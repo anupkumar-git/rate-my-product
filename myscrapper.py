@@ -18,7 +18,3 @@ class MyScrapper:
         self.logger.debug("Creating a html file for the response.")
         with open('request_file.html', 'w') as fh:
             fh.write(url_req.text)
-
-
-
-
